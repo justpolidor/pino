@@ -3,6 +3,12 @@
 pino exports disk stats about a specific volume (path) to a prometheus compatible endpoint ``` /metrics ```.
 It exports: available disk space, used disk space, total disk space in MB.
 
+### Docker Hub
+
+```
+https://hub.docker.com/r/jpolidor/pino 
+```
+
 ### Usage
 
 First export an environment variable named ```APP_NAME``` that will prefix the prometheus metric
