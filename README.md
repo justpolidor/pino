@@ -3,6 +3,8 @@
 pino exports disk stats about a specific volume (path) to a prometheus compatible endpoint ``` /metrics ```.
 It exports: available disk space, used disk space, total disk space in MB.
 
+Pino is meant to be used in Kuberentes as an additional container to the main one in a Pod
+
 ### Docker Hub
 
 
