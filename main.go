@@ -124,6 +124,6 @@ func main() {
 		}
 	}()
 
-	http.ListenAndServe("localhost:"+strconv.Itoa(port), nil)
+	http.ListenAndServe(":"+strconv.Itoa(port), nil)
 
 }
